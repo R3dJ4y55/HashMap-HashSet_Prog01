@@ -16,3 +16,12 @@ Q30:
 ``` java
 phoneBook.containsKey(name);
 ```
+
+Q31: It returns *null*
+
+Q32: A for-loop can be used:
+``` java
+for (String key : phoneBook.keySet(){
+    System.out.printf(key);
+}
+```
